@@ -13,12 +13,13 @@ The purpose of this project is to apply the skills learned to create pivot table
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-
+![](01-Kickstarter/Submission/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-
+![](01-Kickstarter/Submission/Resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
-
+One of the challenges I faced is  to calculate the mean from the filtered data. The formula was still taking all the values irrespective of the filter.
+I overcame the issue by copying the filtered data to a seperate spreadsheet and making calculations from the new spreadsheet.
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
@@ -32,8 +33,8 @@ Months of May,June,July and August has almost the same number of failed campaign
 88% of the projects failed when the goal amount is greater than $50000.There are no canceled campaigns for the plays.
 
 - What are some limitations of this dataset?
-
+The data provided is 5 years old data hence the information provided can be outdated. If the dataset provided additional information like reason for outcomes (Success,Fail etc), it could be benefitted.
 
 - What are some other possible tables and/or graphs that we could create?
-
-Based on the kickstarter data set, we can create other visualizations charts for analysis for any category of interest and/or any other country.
+By understanding the mean, median,max, min and quartiles, we can understand the data distribution pattern and whether the data is skewed and what are the outliers using boxcharts.
+Based on the kickstarter data set, we can create other visualizations charts for analysis  for any category/subcategory of interest and/or any other country.
